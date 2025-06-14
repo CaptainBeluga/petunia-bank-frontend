@@ -1,5 +1,5 @@
 const configs = {
-  API_ENDPOINT : "http://localhost:3000",
+  API_ENDPOINT : "https://petunia-bank-backend.onrender.com",
 
   TOKEN_NAME : "token",
 
