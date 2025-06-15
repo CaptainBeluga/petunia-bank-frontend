@@ -193,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch(`${configs.API_ENDPOINT}/home/info`, {
         credentials: "include"
     }).then(r => {
+        console.log(r.headers.get("Authorization"))
         setToken(r.headers.get("Authorization"))
         return r.json()
     }).then(r => {
